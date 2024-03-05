@@ -1,0 +1,14 @@
+## Pre-requisites
+Download and unzip the project
+Please, ensure you have 'Node Js' and cypress installed in your machine
+
+## Installation
+Install cypress with: npm install cypress --save-dev
+Install project dependencies with: npm i
+
+## Running the test: 
+ - Open the terminal and run: npx cypress open (select appropriate browser and feature file to execute)
+ - Open the terminal and run: npx cypress run (To run test in headless mode)
+
+## Viewing report after headless execution: 
+ - Navigate to ./cypress/reports/html and open index.html
